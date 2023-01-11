@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import "./styles/general.css"
+import Home from './components/Home';
+import About from './components/About';
+import Ratings from './components/Ratings';
+import Career from './components/Career';
+import HomeCard from './minors/HomeCard';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div id='mainBox'>
+			<Home />
+			<About />
+			<Ratings />
+			<Career />
+			<HomeCard heading={"Focus on the analytics that matters"} top={false} />
+		</div>
+	);
 }
 
 export default App;
