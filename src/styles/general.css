@@ -80,6 +80,53 @@ color: #151531;
     margin-top: 15px;
 }
 
+
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    margin-right: 261px;
+}
+.navbar-brand .icon{
+    background-color: rgba(157, 10, 255, 1);
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+    top: 4px;
+    margin-right: 9px;
+}
+.navbar-brand svg{
+   display: flex;
+   flex-direction: row;
+}
+.cart{
+    display: flex;
+    position: relative;
+    top: 10px;
+    color: #9D0AFF;
+}
+.cart svg{
+    display: flex;
+    position: relative;
+    top: 2px;
+    right: 5px;
+    font-size: 21px;
+}
+.cart div{
+    display: flex;
+}
+#btn2{
+    margin-right: 7px;
+    border: 1px solid rgba(157, 10, 255, 1);
+    color: rgba(157, 10, 255, 1);
+}
+
+
 @media (max-width:900px) {
     #mainBox{
         padding: 0px 30px;

@@ -63,7 +63,7 @@ color: rgba(21, 21, 49, 0.6);
     color: #FFFAFF;
     text-align: center;
 }
-#homeCard .button1{
+.button1{
     background-color: rgba(157, 10, 255, 1);
     color: white;
     font-family: 'Inter';
@@ -79,7 +79,7 @@ color: rgba(21, 21, 49, 0.6);
     align-items: center;
     justify-content: center;
 }
-#homeCard .button2{
+.button2{
     background-color: transparent;
     color: white;
     border: 1px solid white;
@@ -183,7 +183,7 @@ color: rgba(21, 21, 49, 0.6);
     #home .homeImg {
         width: 100%;
     }
-    #homeCard .button1 {
+    .button1 {
         padding: 5px 10px;
         font-size: 14px;
     }
@@ -211,11 +211,11 @@ color: rgba(21, 21, 49, 0.6);
         align-items: center;
         justify-content: center;
     }
-    #homeCard .button1 {
+    .button1 {
         padding: 10px 15px;
         font-size: 14px;
     }
-    #homeCard .button2 {
+    .button2 {
         padding: 10px 15px;
         font-size: 14px;
         margin-left: 0px;
